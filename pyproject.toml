@@ -1,0 +1,24 @@
+[project]
+name = "face-access-control"
+version = "0.1.0"
+description = "A production-ready computer vision system for face-based access control"
+requires-python = "==3.13.*"
+dependencies = [
+    # Core face recognition (SOTA model)
+    "insightface>=0.7.3",
+    
+    # Image processing and camera input
+    "opencv-python>=4.8.0",
+    
+    # Array operations (required by insightface and opencv)
+    "numpy>=1.24.0",
+    
+    # Image I/O (for loading/saving face images)
+    "pillow>=10.0.0",
+    
+    # ONNX runtime for InsightFace model inference
+    "onnxruntime>=1.16.0",
+    
+    # Reactive Python notebooks for exploration
+    "marimo>=0.4.0",
+]
