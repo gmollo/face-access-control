@@ -11,4 +11,3 @@ and operationalizing the system so that successful operation commences
 ### Package management 
 Many ML/DS projects leverage conda for preconfigured stacks of libraries and a familiar api for management. 
 This project will make use of uv for super speedy package management and a more lightweight surface for containerization. 
-

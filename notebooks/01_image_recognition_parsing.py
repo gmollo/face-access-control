@@ -65,7 +65,6 @@ def _(face_cascade, gray):
         minNeighbors=5,        # How many neighbors each candidate rectangle should have
         minSize=(30, 30)      # Minimum face size
     )
-
     return (faces,)
 
 
@@ -80,7 +79,7 @@ def _(cv2, faces, image_with_faces):
     for (x, y, w, h) in faces:
         # Draw rectangle (BGR color format)
         cv2.rectangle(image_with_faces, (x, y), (x + w, y + h), (0, 255, 0), 2)
-    
+
         # Optional: Add label
         cv2.putText(
             image_with_faces,
@@ -105,11 +104,6 @@ def _(cv2, image_with_faces):
 @app.cell
 def _(pil_image):
     pil_image
-    return
-
-
-@app.cell
-def _():
     return
 
 
