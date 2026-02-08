@@ -90,7 +90,7 @@ def _(cv2, faces, image: "np.ndarray", image_copy):
     for x, y, w, h in faces:
         cv2.rectangle(image_copy, (x, y), (x + w, y + h), (0, 255, 0), 2)
         cv2.putText(
-            image,
+            image_copy,
             "Face",
             (x, y - 10),
             cv2.FONT_HERSHEY_SIMPLEX,
@@ -146,11 +146,11 @@ def _(data_dir: "Path"):
 
 
 @app.cell
-def _(cv2, dog_image_path, image: "np.ndarray"):
+def _(cv2, dog_image_path):
     dog_image = cv2.imread(
         str(dog_image_path) 
     )  
-    dog_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)  
+    dog_gray = cv2.cvtColor(dog_image, cv2.COLOR_BGR2GRAY)  
     return dog_gray, dog_image
 
 
