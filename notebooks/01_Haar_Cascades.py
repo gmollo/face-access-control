@@ -45,7 +45,7 @@ def _(Path, cv2, image_path: "Path", np):
     stub = Path(cv2.__file__).parent / "__init__.pyi"
 
 
-    assert image.all() == image_copy.all()
+    assert np.array_equal(image,image_copy)
     """Create greyscale version 'cv2.BGR2GRAY' of image array"""
     return greyscale, image, image_copy
 
