@@ -1,0 +1,191 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.19.7"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "8b59b2bb0b2e6b11bf7b40646b5c532f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "04e233583c0b9b0dccf3c1029a8b6107",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>&#x27;\\nthe output of this cell represents a full pipeline according to the insightface spec. Seeral different models are used with specialized purposes.\\n&#x27;</pre>"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}\nfind model: /Users/josephmollo/.insightface/models/buffalo_l/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0\nApplied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}\nfind model: /Users/josephmollo/.insightface/models/buffalo_l/2d106det.onnx landmark_2d_106 ['None', 3, 192, 192] 0.0 1.0\nApplied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}\nfind model: /Users/josephmollo/.insightface/models/buffalo_l/det_10g.onnx detection [1, 3, '?', '?'] 127.5 128.0\nApplied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}\nfind model: /Users/josephmollo/.insightface/models/buffalo_l/genderage.onnx genderage ['None', 3, 96, 96] 0.0 1.0\nApplied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}\nfind model: /Users/josephmollo/.insightface/models/buffalo_l/w600k_r50.onnx recognition ['None', 3, 112, 112] 127.5 127.5\nset det-size: (640, 640)\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "vblA",
+      "code_hash": "b58a21a190ba121fb01b4c56098a2588",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">As seen here:\nface-access-control/.venv/lib/python3.13/site-packages/insightface/app/face_analysis.py, initializing the class amounts to populating a models dict</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "uOyh",
+      "code_hash": "dde110c9fb84fa7cc7a3c19ae171bc56",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "/Users/josephmollo/portfolio/face-access-control\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "1143b29148cbbbcf26ede4891198db8e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "4d282d182d397d7cc8909b7ab6244979",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "f0af9a75937be0c18a317258a45f59d2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "b5a7d5cc03df1c92e7bd1296c09a2c8f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "/Users/josephmollo/portfolio/face-access-control/.venv/lib/python3.13/site-packages/insightface/utils/face_align.py:23: FutureWarning: `estimate` is deprecated since version 0.26 and will be removed in version 2.2. Please use `SimilarityTransform.from_estimate` class constructor instead.\n  tform.estimate(lmk, dst)\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "2ee20aa588702420a60bf0450e0abbd1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "51b69d798747770e717bacfadab6b6a3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "7be727d52e5f21925cb61d49f884cd49",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "perplexity (5) must be less than n_samples (1)",
+          "traceback": []
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/var/folders/p8/4jh78qw145z_svym0nm9r_6m0000gn/T/marimo_7176/__marimo__cell_RGSE_.py&quot;</span>, line <span class=\"m\">1</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">visualize_embeddings</span><span class=\"p\">(</span><span class=\"n\">embeddings</span><span class=\"p\">,</span> <span class=\"n\">labels</span><span class=\"o\">=</span><span class=\"p\">[</span><span class=\"s2\">&quot;girl&quot;</span><span class=\"p\">])</span>\n<span class=\"w\">    </span><span class=\"pm\">~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;/var/folders/p8/4jh78qw145z_svym0nm9r_6m0000gn/T/marimo_7176/__marimo__cell_BYtC_.py&quot;</span>, line <span class=\"m\">15</span>, in <span class=\"n\">visualize_embeddings</span>\n<span class=\"w\">    </span><span class=\"n\">embeddings_2d</span> <span class=\"o\">=</span> <span class=\"n\">tsne</span><span class=\"o\">.</span><span class=\"n\">fit_transform</span><span class=\"p\">(</span><span class=\"n\">embeddings_array</span><span class=\"p\">)</span>\n  File <span class=\"nb\">&quot;/Users/josephmollo/portfolio/face-access-control/.venv/lib/python3.13/site-packages/sklearn/utils/_set_output.py&quot;</span>, line <span class=\"m\">316</span>, in <span class=\"n\">wrapped</span>\n<span class=\"w\">    </span><span class=\"n\">data_to_wrap</span> <span class=\"o\">=</span> <span class=\"n\">f</span><span class=\"p\">(</span><span class=\"bp\">self</span><span class=\"p\">,</span> <span class=\"n\">X</span><span class=\"p\">,</span> <span class=\"o\">*</span><span class=\"n\">args</span><span class=\"p\">,</span> <span class=\"o\">**</span><span class=\"n\">kwargs</span><span class=\"p\">)</span>\n  File <span class=\"nb\">&quot;/Users/josephmollo/portfolio/face-access-control/.venv/lib/python3.13/site-packages/sklearn/base.py&quot;</span>, line <span class=\"m\">1336</span>, in <span class=\"n\">wrapper</span>\n<span class=\"w\">    </span><span class=\"k\">return</span> <span class=\"n\">fit_method</span><span class=\"p\">(</span><span class=\"n\">estimator</span><span class=\"p\">,</span> <span class=\"o\">*</span><span class=\"n\">args</span><span class=\"p\">,</span> <span class=\"o\">**</span><span class=\"n\">kwargs</span><span class=\"p\">)</span>\n  File <span class=\"nb\">&quot;/Users/josephmollo/portfolio/face-access-control/.venv/lib/python3.13/site-packages/sklearn/manifold/_t_sne.py&quot;</span>, line <span class=\"m\">1135</span>, in <span class=\"n\">fit_transform</span>\n<span class=\"w\">    </span><span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_check_params_vs_input</span><span class=\"p\">(</span><span class=\"n\">X</span><span class=\"p\">)</span>\n<span class=\"w\">    </span><span class=\"pm\">~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^</span>\n  File <span class=\"nb\">&quot;/Users/josephmollo/portfolio/face-access-control/.venv/lib/python3.13/site-packages/sklearn/manifold/_t_sne.py&quot;</span>, line <span class=\"m\">847</span>, in <span class=\"n\">_check_params_vs_input</span>\n<span class=\"w\">    </span><span class=\"k\">raise</span> <span class=\"ne\">ValueError</span><span class=\"p\">(</span>\n<span class=\"w\">    </span><span class=\"o\">...&lt;</span><span class=\"mi\">2</span> <span class=\"n\">lines</span><span class=\"o\">&gt;...</span>\n<span class=\"w\">    </span><span class=\"p\">)</span>\n<span class=\"gr\">ValueError</span>: <span class=\"n\">perplexity (5) must be less than n_samples (1)</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "Kclp",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
